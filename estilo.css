@@ -1,0 +1,210 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+
+header {
+    background: #ffffff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.navbar {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 150px;
+}
+
+.menu-principal {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-evenly; 
+}
+
+.menu-principal li {
+    margin: 0 15px;
+}
+
+.menu-principal li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.menu-principal li a.registro {
+    background: #00754A;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 35px;
+}
+
+
+.menu-principal li a.registro:hover {
+    background: #005A36;
+}
+
+
+.linea {
+    width: 100%;
+    height: 2px;
+    background: #e5e5e5;
+}
+
+
+.bloques {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+}
+
+.bloque {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #FFE6F0;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 95%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.bloque img {
+    width: 15%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.bloque .descripcion {
+    padding: 20px;
+    width: 30%;
+    font-size: 20px
+}
+
+.bloque .descripcion h2 {
+    color: #00754A;
+    margin: 10px 0;
+}
+
+.bloque .descripcion p {
+    color: #333;
+}
+
+.bloque .boton {
+    background: #00754A;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.bloque .boton:hover {
+    background: #005A36;
+}
+
+
+footer {
+    background: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-secundario {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+}
+
+.menu-secundario li {
+    margin: 0 15px;
+}
+
+.menu-secundario li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.social a {
+    margin: 0 10px;
+}
+
+.redes img {
+    width: 30px;
+}
+.libro img{
+    width: 120px;
+}
+p{
+    text-align: left;
+}
+.icon {
+    width: 46px; 
+    height: 46px; 
+    margin-right: 5px;
+    vertical-align: middle; 
+}
+
+
+
+#cajagrande {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px; 
+    margin-left: 85px;
+    margin-right: 85px;
+}
+
+#cajagrande {
+    display: flex; 
+}
+
+#cajamenu {
+    flex: 1; 
+    padding: 20px;
+    border: 1px solid #00754A; 
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+#cajabebidas {
+    flex: 7; 
+    padding: 20px;
+    border: 1px solid #00754A; 
+    border-radius: 8px;
+    background-color: #ffffff; 
+}
+.imagen-redonda{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
